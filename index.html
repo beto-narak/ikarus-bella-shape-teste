@@ -1,5 +1,133 @@
-<html>
-<body>
-<h1> Foi implementado, Sim! </h1>
-</body>
+<!DOCTYPE html>
+<html lang="pt-BR" class="bg-black">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Bella Shape | A Chave para a Sua Transformação</title>
+    <meta
+      name="description"
+      content="Bella Shape da Ikarus: Suporte metabólico premium e bem-estar. Descubra uma nova versão de você com nossa fórmula exclusiva."
+    />
+    <meta property="og:title" content="Bella Shape - Ikarus" />
+    <meta
+      property="og:description"
+      content="Apoio ao metabolismo e bem-estar. Fórmula natural e premium."
+    />
+    <meta property="og:type" content="product" />
+    <meta property="og:image" content="/images/bella-shape-share.jpg" />
+    <link
+      rel="shortcut icon"
+      href="/logo-inpi-branco-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <!-- Fonts: Inter & Syne (for headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Syne:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Open Sans", "sans-serif"],
+              display: ["Syne", "sans-serif"],
+            },
+            colors: {
+              brand: {
+                black: "#000000", // Pure black for AMOLED contrast
+                dark: "#0A0A0A",
+                gray: "#121212",
+                accent: "#00E5FF", // Neon Cyan
+                accentDark: "#0099AA",
+                purple: "#7000FF",
+              },
+            },
+            backgroundImage: {
+              "glow-radial":
+                "radial-gradient(circle at center, rgba(0, 229, 255, 0.15) 0%, rgba(0,0,0,0) 70%)",
+              noise:
+                "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
+            },
+            animation: {
+              float: "float 6s ease-in-out infinite",
+              marquee: "marquee 25s linear infinite",
+            },
+            keyframes: {
+              float: {
+                "0%, 100%": { transform: "translateY(0)" },
+                "50%": { transform: "translateY(-20px)" },
+              },
+              marquee: {
+                "0%": { transform: "translateX(0%)" },
+                "100%": { transform: "translateX(-50%)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #000000;
+        color: #ffffff;
+        overflow-x: hidden;
+      }
+      .font-display {
+        font-family: "Syne", sans-serif;
+      }
+      .text-glow {
+        text-shadow: 0 0 20px rgba(0, 229, 255, 0.5);
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00e5ff;
+      }
+
+      .clip-diagonal {
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.2.0",
+          "react/": "https://esm.sh/react@18.2.0/",
+          "react-dom": "https://esm.sh/react-dom@18.2.0",
+          "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+          "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+          "lucide-react": "https://esm.sh/lucide-react@0.263.1",
+          "gsap": "https://esm.sh/gsap@3.12.2",
+          "gsap/ScrollTrigger": "https://esm.sh/gsap@3.12.2/ScrollTrigger",
+          "framer-motion": "https://esm.sh/framer-motion@10.16.4?deps=react@18.2.0,react-dom@18.2.0",
+          "gsap/": "https://esm.sh/gsap@^3.14.2/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>
