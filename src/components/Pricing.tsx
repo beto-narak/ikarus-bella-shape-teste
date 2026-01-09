@@ -17,7 +17,7 @@ export const Pricing: React.FC = () => {
       image: "/capa-removebg-preview.webp",
       installmentPrice: "19,70",
       pixPrice: "197",
-      discount: "91,00",
+      discount: "",
       url: CHECKOUT_URL_1_UNIT,
       highlight: false,
       ctaText: "QUERO EXPERIMENTAR",
