@@ -155,7 +155,7 @@ export const Pricing: React.FC = () => {
                   <p className="text-gray-400 text-sm font-medium mt-2">
                     Ou R$ {offer.pixPrice} à vista no PIX
                   </p>
-                  {offer.discount && (
+                  {offer.discount.length > 0 && (
                     <p className="text-sm font-bold mt-3 text-yellow-400">
                       Você economiza{" "}
                       <span className="underline decoration-1">
