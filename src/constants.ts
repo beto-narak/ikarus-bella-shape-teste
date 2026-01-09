@@ -2,7 +2,7 @@ import { Flame, Activity, ShieldCheck, Heart } from "lucide-react";
 import { BenefitItem, FAQItem, StepItem, TestimonialItem } from "../src/types";
 
 export const SHOPIFY_URL = "#pricing";
-export const WHATSAPP_LINK = "https://wa.me/55933860859";
+export const WHATSAPP_LINK = "https://wa.me/5547933860859";
 
 export const CHECKOUT_URL_1_UNIT = "https://sua-loja.com/checkout/1-unidade";
 export const CHECKOUT_URL_3_UNITS = "https://sua-loja.com/checkout/3-unidades";
