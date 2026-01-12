@@ -17,7 +17,7 @@ export const Pricing: React.FC = () => {
       image: "/capa-removebg-preview.webp",
       installmentPrice: "19,70",
       pixPrice: "197",
-      discount: "",
+      discount: "91,00",
       url: CHECKOUT_URL_1_UNIT,
       highlight: false,
       ctaText: "QUERO EXPERIMENTAR",
@@ -30,7 +30,7 @@ export const Pricing: React.FC = () => {
       image: "/2-removebg-preview.webp",
       installmentPrice: "39,40",
       pixPrice: "394",
-      discount: "197,00",
+      discount: "190,00",
       url: CHECKOUT_URL_3_UNITS,
       highlight: true,
       ctaText: "GARANTIR OFERTA",
@@ -43,7 +43,7 @@ export const Pricing: React.FC = () => {
       image: "/3-removebg-preview.webp",
       installmentPrice: "59,10",
       pixPrice: "591",
-      discount: "394,00",
+      discount: "436,00",
       url: CHECKOUT_URL_5_UNITS,
       highlight: false,
       ctaText: "MELHOR CUSTO-BENEFÍCIO",
@@ -155,11 +155,10 @@ export const Pricing: React.FC = () => {
                   <p className="text-gray-400 text-sm font-medium mt-2">
                     Ou R$ {offer.pixPrice} à vista no PIX
                   </p>
-                  {offer.discount && (
-                    <p className="text-sm font-bold mt-3 text-yellow-400">
-                      Você economiza{" "}
-                      <span className="underline decoration-1">
-                        R$ {offer.discount}
+                  <p className="text-sm font-bold mt-3 text-yellow-400">
+                    Você economiza{" "}
+                    <span className="underline decoration-1">
+                      R$ {offer.discount}
                     </span>
                   </p>
                 </div>
