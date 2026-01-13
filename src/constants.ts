@@ -70,7 +70,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "Existem contraindicações?",
     answer:
-      "Sim. O produto não é indicado para gestantes, lactantes, menores de 19 anos e pessoas com condições médicas severas sem acompanhamento. Sempre consulte um profissional de saúde.",
+      "Sim. O produto não é indicado para gestantes, lactantes, menores de 18 anos e pessoas com condições médicas severas sem acompanhamento. Sempre consulte um profissional de saúde.",
   },
   {
     question: "O Bella Shape substitui refeições?",
