@@ -141,7 +141,7 @@ export const Pricing: React.FC = () => {
               <div className="flex-1 flex flex-col justify-end">
                 <div className="mb-8 space-y-1">
                   <p className="text-gray-400 text-sm font-medium uppercase tracking-widest">
-                    Por 12x de
+                    12x sem juros
                   </p>
                   <div className="flex items-start justify-center gap-1 text-white">
                     <span className="text-2xl font-bold mt-2">R$</span>
