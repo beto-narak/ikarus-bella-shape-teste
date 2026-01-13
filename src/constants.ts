@@ -46,7 +46,7 @@ export const STEPS: StepItem[] = [
     number: "02",
     title: "Momento Certo",
     description:
-      "Ingerir após uma refeição (café da manhã ou almoço). Nunca tome em jejum.",
+      "Ingerir 30 a 60 minutos antes da maior refeição, de preferência acompanhado de 2 copos de água.",
   },
   {
     number: "03",
@@ -60,7 +60,7 @@ export const FAQS: FAQItem[] = [
   {
     question: "Como devo tomar o Bella Shape?",
     answer:
-      "A recomendação é de 1 cápsula ao dia, preferencialmente após o café da manhã ou almoço. É fundamental não ingerir o produto em jejum e manter uma boa ingestão de água.",
+      "A recomendação é de 1 cápsula ao dia, preferencialmente antes da maior refeição,normalmente almoço. É fundamental não ingerir o produto em jejum e manter uma boa ingestão de água.",
   },
   {
     question: "Em quanto tempo vejo resultados?",
