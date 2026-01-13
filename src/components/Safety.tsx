@@ -89,7 +89,7 @@ export const Safety: React.FC = () => {
                 <ul className="space-y-4">
                   {[
                     "Gestantes e lactantes.",
-                    "Menores de 19 anos.",
+                    "Menores de 18 anos.",
                     "Pessoas com condições médicas severas (cardíacos, hipertensos não controlados).",
                     "Pacientes em tratamento com medicação controlada (consulte seu médico).",
                   ].map((item, idx) => (
