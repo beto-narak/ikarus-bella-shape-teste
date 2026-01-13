@@ -4,9 +4,9 @@ import { BenefitItem, FAQItem, StepItem, TestimonialItem } from "../src/types";
 export const SHOPIFY_URL = "#pricing";
 export const WHATSAPP_LINK = "https://wa.me/5547933860859";
 
-export const CHECKOUT_URL_1_UNIT = "https://www.ikarussuplementos.com.br/checkout/v3/start/1878779315/d903d40d7914f82d49ca05edb2af7bf4576192d9?from_store=1&country=BR";
-export const CHECKOUT_URL_3_UNITS = "https://www.ikarussuplementos.com.br/checkout/v3/start/1878779315/d903d40d7914f82d49ca05edb2af7bf4576192d9?from_store=1&country=BR";
-export const CHECKOUT_URL_5_UNITS = "https://www.ikarussuplementos.com.br/checkout/v3/start/1878779315/d903d40d7914f82d49ca05edb2af7bf4576192d9?from_store=1&country=BR";
+export const CHECKOUT_URL_1_UNIT = "https://www.ikarussuplementos.com.br/produtos/bella-shape-metabolismo-inibidor-apetite/";
+export const CHECKOUT_URL_3_UNITS = "https://www.ikarussuplementos.com.br/produtos/bella-shape-metabolismo-inibidor-apetite-leve-3-pague-2/";
+export const CHECKOUT_URL_5_UNITS = "https://www.ikarussuplementos.com.br/produtos/bella-shape-metabolismo-inibidor-apetite-leve-5-pague-3/";
 
 export const BENEFITS: BenefitItem[] = [
   {
